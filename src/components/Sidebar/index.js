@@ -1,3 +1,4 @@
+// sidebar for mobile view
 import React from "react";
 import {
   SidebarContainer,
@@ -10,18 +11,26 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="home">Home</SidebarLink>
-          <SidebarLink to="about">About</SidebarLink>
-          <SidebarLink to="portfolio">Portfolio</SidebarLink>
-          <SidebarLink to="resume">Resume</SidebarLink>
+          <SidebarLink to="home" isOpen={isOpen} onClick={toggle}>
+            Home
+          </SidebarLink>
+          <SidebarLink to="about" isOpen={isOpen} onClick={toggle}>
+            About
+          </SidebarLink>
+          <SidebarLink to="portfolio" isOpen={isOpen} onClick={toggle}>
+            Portfolio
+          </SidebarLink>
+          <SidebarLink to="resume" isOpen={isOpen} onClick={toggle}>
+            Resume
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="/contact">Contact</SidebarRoute>
