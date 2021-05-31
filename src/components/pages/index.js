@@ -7,6 +7,8 @@ import About from "../AboutSection";
 import { homeObjOne, homeObjTwo, homeObjThree } from "../AboutSection/Data";
 
 import Carousel from "../Portfolio/index";
+import Footer from "../Footer";
+import ContactPage from "../Contact";
 
 const Home = () => {
   //toggling the mobile dropdown menu
@@ -24,8 +26,7 @@ const Home = () => {
       <HeroSection />
       <About {...homeObjOne} />
       <Carousel />
-      <About {...homeObjTwo} />
-      <About {...homeObjThree} />
+      <Footer />
     </>
   );
 };
