@@ -9,97 +9,98 @@ const flickityOptions = {
 
 function Carousel() {
   return (
-    // <div id="portfolio" style={{ backgroundColor: "#236cba", height: "40rem" }}>
-    <section className="projects wrapper">
-      <div className="titles">
-        <div className="highlight"></div>
-        <h2 id="projectsJumpTo" className="title">
-          Projects
-        </h2>
-      </div>
-      <Flickity
-        className={"carousel"} // default ''
-        elementType={"div"} // default 'div'
-        options={flickityOptions} // takes flickity options {}
-        disableImagesLoaded={false} // default false
-        reloadOnUpdate // default false
-        static // default false
-        initialIndex={0}
-      >
-        <div className="projectOne carousel-cell">
-          <img
-            className="screenshot"
-            src={svg1}
-            alt="screenshot of Sprout app landing page"
-          />
-          <p className="desc">
-            A plant app created with a Firebase database in React. Users are
-            able to find a randomly generated plant suitable for an indoor
-            apartment depending on if they have pets or not.
-          </p>
-          <ul className="skillsContainer">
-            <li>React</li>
-            <li>Firebase</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li className="button">
-              <a href="https://github.com/amybradford/plants-app">GitHub</a>
-            </li>
-            <li className="button">
-              <a href="https://plantsprout.netlify.app/">Live Site</a>
-            </li>
-          </ul>
+    <div id="portfolio" style={{ backgroundColor: "#236cba" }}>
+      <section className="projects wrapper">
+        <div className="titles">
+          <div className="highlight"></div>
+          <h2 id="projectsJumpTo" className="title">
+            Projects
+          </h2>
         </div>
-        <div className="projectTwo carousel-cell">
-          <img
-            className="screenshot"
-            src={svg1}
-            alt="screenshot of Sprout app landing page"
-          />
-          <p className="desc">
-            A plant app created with a Firebase database in React. Users are
-            able to find a randomly generated plant suitable for an indoor
-            apartment depending on if they have pets or not.
-          </p>
-          <ul className="skillsContainer">
-            <li>React</li>
-            <li>Firebase</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li className="button">
-              <a href="https://github.com/amybradford/plants-app">GitHub</a>
-            </li>
-            <li className="button">
-              <a href="https://plantsprout.netlify.app/">Live Site</a>
-            </li>
-          </ul>
-        </div>
-        <div className="projectThree carousel-cell">
-          <img
-            className="screenshot"
-            src={svg1}
-            alt="screenshot of Sprout app landing page"
-          />
-          <p className="desc">
-            A plant app created with a Firebase database in React. Users are
-            able to find a randomly generated plant suitable for an indoor
-            apartment depending on if they have pets or not.
-          </p>
-          <ul className="skillsContainer">
-            <li>React</li>
-            <li>Firebase</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li className="button">
-              <a href="https://github.com/amybradford/plants-app">GitHub</a>
-            </li>
-            <li className="button">
-              <a href="https://plantsprout.netlify.app/">Live Site</a>
-            </li>
-          </ul>
-        </div>
-      </Flickity>
-    </section>
+        <Flickity
+          className={"carousel"} // default ''
+          elementType={"div"} // default 'div'
+          options={flickityOptions} // takes flickity options {}
+          disableImagesLoaded={false} // default false
+          reloadOnUpdate // default false
+          static // default false
+          initialIndex={0}
+        >
+          <div className="projectOne carousel-cell">
+            <img
+              className="screenshot"
+              src={svg1}
+              alt="screenshot of Sprout app landing page"
+            />
+            <p className="desc">
+              A plant app created with a Firebase database in React. Users are
+              able to find a randomly generated plant suitable for an indoor
+              apartment depending on if they have pets or not.
+            </p>
+            <ul className="skillsContainer">
+              <li>React</li>
+              <li>Firebase</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li className="button">
+                <a href="https://github.com/amybradford/plants-app">GitHub</a>
+              </li>
+              <li className="button">
+                <a href="https://plantsprout.netlify.app/">Live Site</a>
+              </li>
+            </ul>
+          </div>
+          <div className="projectTwo carousel-cell">
+            <img
+              className="screenshot"
+              src={svg1}
+              alt="screenshot of Sprout app landing page"
+            />
+            <p className="desc">
+              A plant app created with a Firebase database in React. Users are
+              able to find a randomly generated plant suitable for an indoor
+              apartment depending on if they have pets or not.
+            </p>
+            <ul className="skillsContainer">
+              <li>React</li>
+              <li>Firebase</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li className="button">
+                <a href="https://github.com/amybradford/plants-app">GitHub</a>
+              </li>
+              <li className="button">
+                <a href="https://plantsprout.netlify.app/">Live Site</a>
+              </li>
+            </ul>
+          </div>
+          <div className="projectThree carousel-cell">
+            <img
+              className="screenshot"
+              src={svg1}
+              alt="screenshot of Sprout app landing page"
+            />
+            <p className="desc">
+              A plant app created with a Firebase database in React. Users are
+              able to find a randomly generated plant suitable for an indoor
+              apartment depending on if they have pets or not.
+            </p>
+            <ul className="skillsContainer">
+              <li>React</li>
+              <li>Firebase</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li className="button">
+                <a href="https://github.com/amybradford/plants-app">GitHub</a>
+              </li>
+              <li className="button">
+                <a href="https://plantsprout.netlify.app/">Live Site</a>
+              </li>
+            </ul>
+          </div>
+        </Flickity>
+      </section>
+    </div>
   );
 }
 
