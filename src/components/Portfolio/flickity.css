@@ -146,7 +146,8 @@
 .projects {
   background-color: #f7f8fa;
   height: 100vh;
-  /* margin-top: -90px; */
+  padding-top: 90px;
+  /* margin-top: 90px; */
 }
 .projects .highlight {
   /* position: sticky; */
