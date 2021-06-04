@@ -24,7 +24,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay muted src={Video} type="video/mp4"></VideoBg>
+        <VideoBg autoPlay muted loop src={Video} type="video/mp4"></VideoBg>
       </HeroBg>
       <HeroContent>
         <HeroH1>HI! I'M GALIT</HeroH1>
@@ -43,7 +43,7 @@ const HeroSection = () => {
           // loop={Infinity}
           wrapper="b"
         />
-        <HeroBtnWrapper>
+        {/* <HeroBtnWrapper>
           <Button
             to="contact"
             onMouseEnter={onHover}
@@ -53,7 +53,7 @@ const HeroSection = () => {
           >
             Contact {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   );
