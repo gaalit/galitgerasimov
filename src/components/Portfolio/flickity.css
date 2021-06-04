@@ -143,20 +143,35 @@
   opacity: 1;
 }
 
-.projects {
+/* .projects {
   background-color: #f7f8fa;
   height: 100vh;
   padding-top: 90px;
-  /* margin-top: 90px; */
+  margin-top: 90px;
+} */
+
+.container {
+  color: #000;
+  background: #f9f9f9;
+}
+
+.wrapper {
+  padding-top: 140px;
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 24px;
 }
 .projects .highlight {
-  /* position: sticky; */
   background: rgba(202, 174, 162, 0.6);
   width: 100px;
   height: 24px;
+  margin-left: 24px;
   margin-bottom: -93px;
 
-  left: -4px;
   opacity: 0.8;
   border-radius: 5px;
 }
@@ -164,13 +179,13 @@
 .title {
   position: relative;
   top: 50px;
+  padding: 0 24px 50px 24px;
+  /* padding-bottom: 35px;
+  padding: 0 24px; */
 }
-.titles {
-  padding-left: 10%;
-}
+
 .carousel {
   height: 509px;
-  margin: 0 103px 0 103px;
 }
 
 .carousel-cell {
@@ -223,3 +238,9 @@
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
+/* 
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: -100px 50px;
+  }
+} */

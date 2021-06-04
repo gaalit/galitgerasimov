@@ -1,0 +1,47 @@
+.skills .highlight {
+  position: absolute;
+  background: rgba(250, 176, 137, 0.6);
+  width: 90px;
+  height: 24px;
+  top: 38px;
+  left: -4px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.skills h2 {
+  margin-top: -50px;
+}
+
+.iconContainer1,
+.iconContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.iconContainer1 .icon,
+.iconContainer2 .icon {
+  opacity: 0.8;
+  padding-top: 5%;
+}
+
+.iconContainer1 p,
+.iconContainer2 p {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.icon:hover + .hideText {
+  visibility: visible;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  opacity: 1;
+}

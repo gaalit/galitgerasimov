@@ -1,40 +1,40 @@
-.contact .highlight {
+.contact-container .highlight {
   background: rgba(202, 174, 162, 0.6);
   width: 100px;
   height: 24px;
+  margin-left: 24px;
   margin-bottom: -93px;
 
-  left: -4px;
   opacity: 0.8;
   border-radius: 5px;
 }
 
-.contact h2 {
+.contact-container h2 {
   position: relative;
   top: 50px;
-  padding-bottom: 75px;
+  /* padding-bottom: 75px; */
+  padding: 0 24px 75px 24px;
 }
 
-.container {
+.contact-container {
   color: #000;
   background: #f9f9f9;
 
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
+  padding-bottom: 25px;
 }
 
 .wrapper-contact {
   z-index: 1;
-  height: 600px;
+  /* height: 400px; */
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 30px 24px;
 }
 
 .contactInfoContainer {
+  padding: 0 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,7 @@
 }
 
 .contactInfoContainer .contactMeContainer {
-  width: 40%;
+  width: 45%;
 }
 
 .contactInfoContainer .contactMeContainer i {
@@ -55,6 +55,7 @@
 
 .contactInfoContainer .contactMeContainer p {
   margin-top: 20px;
+  font-size: 18px;
 }
 
 .contactInfoContainer .contactMeContainer .contactEmail {
@@ -115,5 +116,21 @@ form button {
 }
 
 form button:hover {
-  background: #fbe0cd;
+  background: rgba(202, 174, 162, 0.6);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    padding: 25px 0;
+  }
+
+  .contactInfoContainer {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contactInfoContainer .contactMeContainer {
+    width: 100%;
+  }
 }
