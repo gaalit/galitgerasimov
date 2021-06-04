@@ -11,10 +11,15 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  ArrowForward,
+  ArrowRight,
 } from "./NavbarElements";
+import { Button } from "../ButtonElement";
+import GG from "../../assets/Galit Gerasimov_Resume_May 2021.pdf";
 
 export const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+  const [hover, setHover] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 720) {
@@ -30,6 +35,10 @@ export const Navbar = ({ toggle }) => {
 
   const toggleHome = () => {
     scroll.scrollToTop();
+  };
+
+  const onHover = () => {
+    setHover(!hover);
   };
   return (
     <>
@@ -52,7 +61,7 @@ export const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-90}
               >
                 About
               </NavLinks>
@@ -64,17 +73,39 @@ export const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-90}
               >
                 Portfolio
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="resume">Resume</NavLinks>
+              <NavLinks
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                Contact
+              </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/contact">Contact</NavBtnLink>
+            {/* <HeroBtnWrapper> */}
+            <Button
+              to="contact"
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="true"
+              href={GG}
+              download
+            >
+              My Resume {hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
+            {/* </HeroBtnWrapper> */}
+            {/* <NavBtnLink to="/resume">Resume</NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>

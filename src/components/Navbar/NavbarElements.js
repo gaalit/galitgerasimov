@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
+import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const Nav = styled.nav`
 background: ${({ scrollNav }) => (scrollNav ? "#84a59d" : "transparent")};
@@ -118,4 +119,14 @@ export const NavBtnLink = styled(LinkR)`
     background: #fff;
     color: #010606;
   }
+`;
+
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+  margin-left: 8px;
+  font-size: 20px;
 `;
