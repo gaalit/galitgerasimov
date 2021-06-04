@@ -5,7 +5,6 @@ export const FooterContainter = styled.footer`
   background-color: #101522;
 `;
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,18 +33,19 @@ export const SocialLogo = styled(Link)`
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 18px;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   font-weight: bold;
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 240px;
+  margin-bottom: 10px;
 `;
 
 export const SocialIconLink = styled.a`
