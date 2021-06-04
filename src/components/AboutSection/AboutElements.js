@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#f5cac3")};
 
   @media screen and (max-width: 768px) {
@@ -12,7 +11,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 500px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -36,7 +35,7 @@ export const AboutRow = styled.div`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 0px 15px;
   grid-area: col1;
 `;
 
@@ -64,7 +63,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 2.25rem;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
@@ -75,7 +74,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
+  max-width: 500px;
   margin-botton: 35px;
   font-size: 18px;
   line-height: 24px;
@@ -86,6 +85,7 @@ export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
   margin-top: 35px;
+  font-size: 18px;
 `;
 
 export const ImgWrap = styled.div`
