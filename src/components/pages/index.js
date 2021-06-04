@@ -4,6 +4,7 @@ import Sidebar from "../Sidebar";
 import Navbar from "../Navbar";
 import HeroSection from "../HeroSection";
 import About from "../AboutSection";
+import Skills from "../Skills";
 import { homeObjOne, homeObjTwo, homeObjThree } from "../AboutSection/Data";
 
 import Carousel from "../Portfolio/index";
@@ -25,7 +26,9 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <About {...homeObjOne} />
+      <Skills />
       <Carousel />
+      <ContactPage />
       <Footer />
     </>
   );
