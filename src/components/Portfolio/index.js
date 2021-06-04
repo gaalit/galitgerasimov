@@ -1,6 +1,7 @@
 import React from "react";
 import Flickity from "react-flickity-component";
-import svg1 from "../images/weather.jpeg";
+import svg1 from "../../assets/images/weather.jpeg";
+import { PortfolioContainer, PortfolioWrapper } from "./PortfolioElements";
 import "./flickity.css";
 
 const flickityOptions = {
@@ -9,14 +10,13 @@ const flickityOptions = {
 
 function Carousel() {
   return (
-    <div id="portfolio" style={{ backgroundColor: "#236cba" }}>
-      <section className="projects wrapper">
-        <div className="titles">
-          <div className="highlight"></div>
-          <h2 id="projectsJumpTo" className="title">
-            Projects
-          </h2>
-        </div>
+    <div id="portfolio" className="projects container">
+      <div className="wrapper">
+        <div className="highlight"></div>
+        <h2 id="projectsJumpTo" className="title">
+          Projects
+        </h2>
+
         <Flickity
           className={"carousel"} // default ''
           elementType={"div"} // default 'div'
@@ -99,12 +99,44 @@ function Carousel() {
             </ul>
           </div>
         </Flickity>
-      </section>
+      </div>
     </div>
   );
 }
 
 export default Carousel;
+
+{
+  /* <PortfolioContainer id="portfolio">
+//         <PortfolioH1>My Projects</PortfolioH1>
+//         <PortfolioWrapper>
+//           <PortfolioCard>
+//             <PortfolioIcon src={Icon1} />
+//             <PortfolioH2>Project 1</PortfolioH2>
+//             <PortfolioP>This project is build with blah blah</PortfolioP>
+//           </PortfolioCard>
+//         </PortfolioWrapper>
+//         <PortfolioWrapper>
+//           <PortfolioCard>
+//             <PortfolioIcon src={Icon2} />
+//             <PortfolioH2>Project 2</PortfolioH2>
+//             <PortfolioP>This project is build with blah blah</PortfolioP>
+//           </PortfolioCard>
+//           <PortfolioWrapper>
+//             <PortfolioCard>
+//               <PortfolioIcon src={Icon3} />
+//               <PortfolioH2>Project 3</PortfolioH2>
+//               <PortfolioP>This project is build with blah blah</PortfolioP>
+//             </PortfolioCard>
+//           </PortfolioWrapper>
+//         </PortfolioWrapper>
+//       </PortfolioContainer>
+//     </>
+//   );
+// }; */
+}
+
+// export default Portfolio;
 
 // import Icon1 from "../images/svg-1.svg";
 // import Icon2 from "../images/svg-1.svg";

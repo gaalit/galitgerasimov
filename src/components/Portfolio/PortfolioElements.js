@@ -2,11 +2,6 @@ import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
   height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #010606;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -21,10 +16,7 @@ export const PortfolioContainer = styled.div`
 export const PortfolioWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  grid-gap: 16px;
+
   padding: 0 50px;
 
   @media screen and (max-width: 1000px) {
