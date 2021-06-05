@@ -28,20 +28,19 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>HI! I'M GALIT</HeroH1>
-        <HeroP>I'm a </HeroP>
+        {/* <HeroP>& I'm a </HeroP> */}
         <Typical
           steps={[
             " Full-Stack Developer",
-            1000,
+            2000,
             " Creator",
-            1000,
+            2000,
             " Former Marketing Specialist",
-            1000,
+            2000,
             " Full-Stack Developer",
             500,
           ]}
-          // loop={Infinity}
-          wrapper="b"
+          wrapper="h2"
         />
         {/* <HeroBtnWrapper>
           <Button
