@@ -3,10 +3,10 @@ import "./contact.css";
 
 const ContactPage = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <div className="wrapper-contact">
         <div className="highlight"></div>
-        <h2 id="contact">Contact</h2>
+        <h2>Contact</h2>
         <div className="contactInfoContainer">
           <div className="formContainer">
             <form name="contact" method="POST" data-netlify="true">
