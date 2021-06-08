@@ -38,6 +38,10 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 15px;
   font-weight: bold;
+
+  @media screen and (max-width: 1024px) {
+    padding-left: 20px;
+  }
 `;
 
 export const SocialIcons = styled.div`
