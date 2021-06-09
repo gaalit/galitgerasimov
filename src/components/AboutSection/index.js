@@ -1,6 +1,4 @@
 import React from "react";
-import DevIcon from "devicon-react-svg";
-import { Button } from "../ButtonElement";
 import GG from "../../assets/images/gg.jpg";
 import "./about.css";
 
@@ -30,9 +28,6 @@ const About = ({
   description,
   buttonLabel,
   alt,
-  primary,
-  dark,
-  dark2,
 }) => {
   return (
     <>
