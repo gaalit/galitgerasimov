@@ -25,63 +25,63 @@ const Skills = () => {
               classes="size-xs"
               color="#84a59d"
             />
-            <p>JavaScript</p>
+            <p className="icon-title">JavaScript</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="TypeScipt" classes="size-xs" color="#84a59d" />
-            <p>TypeScript</p>
+            <p className="icon-title">TypeScript</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="CSS" classes="size-xs" color="#84a59d" />
-            <p>CSS</p>
+            <p className="icon-title">CSS</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="HTML" classes="size-xs" color="#84a59d" />
-            <p>HTML5</p>
+            <p className="icon-title">HTML5</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="Ruby" classes="size-xs" color="#84a59d" />
-            <p>Ruby</p>
+            <p className="icon-title">Ruby</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="Sass" classes="size-xs" color="#84a59d" />
-            <p>Sass</p>
+            <p className="icon-title">Sass</p>
           </SingleIcon>
           <SingleIcon>
             <Icon name="PSQL" classes="size-xs" color="#84a59d" />
-            <p>PostgreSQL</p>
+            <p className="icon-title">PostgreSQL</p>
           </SingleIcon>
         </IconWrapper>
         <IconWrapper style={{ paddingTop: "30px" }}>
-          <div>
+          <SingleIcon>
             <Icon name="NodeJs" classes="size-xs" color="#84a59d" />
-            <p>NodeJS</p>
-          </div>
-          <div>
+            <p className="icon-title">NodeJS</p>
+          </SingleIcon>
+          <SingleIcon>
             <Icon name="JQuery" classes="size-xs" color="#84a59d" />
-            <p>JQuery</p>
-          </div>
-          <div>
+            <p className="icon-title">JQuery</p>
+          </SingleIcon>
+          <SingleIcon>
             <Icon name="React" classes="size-xs" color="#84a59d" />
-            <p>React</p>
-          </div>
-          <div>
+            <p className="icon-title">React</p>
+          </SingleIcon>
+          <SingleIcon>
             <Icon name="Redux" classes="size-xs" color="#84a59d" />
-            <p>Redux</p>
-          </div>
+            <p className="icon-title">Redux</p>
+          </SingleIcon>
 
-          <div>
+          <SingleIcon>
             <Icon name="Rails" classes="size-xs" color="#84a59d" />
-            <p>Rails</p>
-          </div>
-          <div>
+            <p className="icon-title">Rails</p>
+          </SingleIcon>
+          <SingleIcon>
             <Icon name="Bootstrap" classes="size-xs" color="#84a59d" />
-            <p>Bootstrap</p>
-          </div>
-          <div>
+            <p className="icon-title">Bootstrap</p>
+          </SingleIcon>
+          <SingleIcon>
             <Icon name="Express" classes="size-xs" color="#84a59d" />
-            <p>Express</p>
-          </div>
+            <p className="icon-title">Express</p>
+          </SingleIcon>
         </IconWrapper>
       </SkillsWrapper>
     </SkillsContainer>

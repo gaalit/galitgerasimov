@@ -10,11 +10,10 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
   ArrowForward,
   ArrowRight,
 } from "./NavbarElements";
-import { Button } from "../ButtonElement";
+import { ButtonOne } from "../ButtonElement";
 import GG from "../../assets/Galit Gerasimov_Resume_May 2021.pdf";
 
 export const Navbar = ({ toggle }) => {
@@ -61,7 +60,7 @@ export const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-90}
+                offset={-58}
               >
                 About
               </NavLinks>
@@ -73,7 +72,7 @@ export const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-90}
+                offset={-290}
               >
                 Portfolio
               </NavLinks>
@@ -85,15 +84,14 @@ export const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-250}
               >
                 Contact
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            {/* <HeroBtnWrapper> */}
-            <Button
+            <ButtonOne
               to="contact"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
@@ -103,9 +101,7 @@ export const Navbar = ({ toggle }) => {
               download
             >
               My Resume {hover ? <ArrowForward /> : <ArrowRight />}
-            </Button>
-            {/* </HeroBtnWrapper> */}
-            {/* <NavBtnLink to="/resume">Resume</NavBtnLink> */}
+            </ButtonOne>
           </NavBtn>
         </NavbarContainer>
       </Nav>
