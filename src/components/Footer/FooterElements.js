@@ -42,6 +42,10 @@ export const SocialLogo = styled(Link)`
   @media screen and (max-width: 1024px) {
     padding-left: 20px;
   }
+
+  @media screen and (max-width: 800px) {
+    font-size: 13px;
+  }
 `;
 
 export const SocialIcons = styled.div`
