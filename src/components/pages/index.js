@@ -5,9 +5,17 @@ import Navbar from "../Navbar";
 import HeroSection from "../HeroSection";
 import About from "../AboutSection";
 import Skills from "../Skills";
-import { homeObjOne, homeObjTwo, homeObjThree } from "../AboutSection/Data";
+import { homeObjOne } from "../AboutSection/Data";
+import {
+  projectOneObj,
+  projectTwoObj,
+  projectThreeObj,
+  projectFourObj,
+  projectFiveObj,
+  projectSixObj,
+} from "../Portfolio/Data";
 
-import Carousel from "../Portfolio/index";
+import Portfolio from "../Portfolio/index";
 import Footer from "../Footer";
 import ContactPage from "../Contact";
 
@@ -27,7 +35,14 @@ const Home = () => {
       <HeroSection />
       <About {...homeObjOne} />
       <Skills />
-      <Carousel />
+      <Portfolio
+        {...projectOneObj}
+        {...projectTwoObj}
+        {...projectThreeObj}
+        {...projectFourObj}
+        {...projectFiveObj}
+        {...projectSixObj}
+      />
       <ContactPage />
       <Footer />
     </>
