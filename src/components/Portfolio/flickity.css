@@ -235,6 +235,14 @@
   border: 2px dashed #67b7b4;
 }
 
+@media only screen and (max-width: 700px) {
+  .projects .highlight {
+    width: 90px;
+    height: 20px;
+    margin-bottom: -90px;
+  }
+}
+
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
