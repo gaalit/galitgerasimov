@@ -1,5 +1,8 @@
 // sidebar for mobile view
 import React from "react";
+import { ButtonThree } from "../ButtonElement";
+import GG from "../../assets/Galit Gerasimov_Resume_May 2021.pdf";
+
 import {
   SidebarContainer,
   Icon,
@@ -8,7 +11,6 @@ import {
   SidebarMenu,
   SidebarLink,
   SideBtnWrap,
-  SidebarRoute,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -28,12 +30,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="portfolio" isOpen={isOpen} onClick={toggle}>
             Portfolio
           </SidebarLink>
-          <SidebarLink to="resume" isOpen={isOpen} onClick={toggle}>
-            Resume
+          <SidebarLink to="contact" isOpen={isOpen} onClick={toggle}>
+            Contact
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contact">Contact</SidebarRoute>
+          <ButtonThree href={GG} download>
+            My Resume
+          </ButtonThree>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
