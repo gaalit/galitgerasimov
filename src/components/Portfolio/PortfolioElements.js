@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
-  height: 800px;
-
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
