@@ -6,10 +6,13 @@ export const SkillsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -40px;
+
+  @media screen (min-width: 769px) and (max-width: 965px) {
+    padding-top: 10%;
+  }
 
   @media screen and (max-width: 768px) {
-    padding-top: 170px;
+    padding-top: 10%;
   }
 `;
 
@@ -24,22 +27,24 @@ export const SkillsWrapper = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 321px) {
+    padding: 0 15px;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 290px;
+  }
 `;
 
 export const SkillsH2 = styled.h2`
-  font-size: 1.5rem;
   padding: 0 24px;
-
   margin-bottom: 100px;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
 `;
 export const IconWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 `;
 

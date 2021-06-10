@@ -6,12 +6,16 @@ export const AboutContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
+
+  @media (min-width: 769px) and (max-width: 965px) {
+    padding: 90px 0 20px 0px;
+  }
 `;
 
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 500px;
+  height: 580px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -40,7 +44,6 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
 `;
@@ -48,7 +51,11 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
+
+  @media and (max-width: 768px) {
+    padding-bottom: 10%;
+  }
 `;
 
 export const TopLine = styled.p`
@@ -68,8 +75,12 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
     font-size: 32px;
+  }
+
+  @media screen and (max-width: 490px) {
+    font-size: 26px;
   }
 `;
 
@@ -79,6 +90,14 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+
+  @media screen and (max-width: 800px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 490px) {
+    font-size: 16px;
+  }
 `;
 
 export const BtnWrap = styled.div`
@@ -86,6 +105,14 @@ export const BtnWrap = styled.div`
   justify-content: flex-start;
   margin-top: 35px;
   font-size: 18px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 490px) {
+    font-size: 16px;
+  }
 `;
 
 export const ImgWrap = styled.div`
@@ -100,4 +127,12 @@ export const Img = styled.img`
 
   margin: 0 0 5px 75px;
   padding-right: 0;
+
+  @media screen and (max-width: 769px) {
+    width: 45vmin;
+    height: 45vmin;
+  }
+  @media screen and (max-width: 395px) {
+    margin-left: 18%;
+  }
 `;
