@@ -1,4 +1,5 @@
 import madeLocal from "../../assets/images/madelocal.gif";
+import mywikimaps from "../../assets/images/mywikimaps.png";
 import jungle from "../../assets/images/jungle.gif";
 import scheduler from "../../assets/images/scheduler.gif";
 import tweeter from "../../assets/images/tweeter.gif";
@@ -15,7 +16,7 @@ export const projectOneObj = {
 
 export const projectTwoObj = {
   titleTwo: "MyWikiMaps",
-  imgTwo: madeLocal,
+  imgTwo: mywikimaps,
   altTwo: "screenshot of MyWikiMaps app landing page",
   descriptionTwo:
     "A map based web app for creating lists of locations worth sharing. From restaurants to sights to activities, the lists are endless.",
