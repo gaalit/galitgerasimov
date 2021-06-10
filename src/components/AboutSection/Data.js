@@ -13,9 +13,9 @@ export const homeObjOne = {
   topLine: "Galit Gerasimov",
   headline: "About me",
   description:
-    "Full stack web developer with a background in accounting, finance & marketing. Coming from an industry that is both individually driven and team-focused, I thrive both on my own, as well as in a group setting. As someone who is extremely curious, creative and detail-oriented, I’m on a never ending quest to learn new technologies and am always up for a challenge!",
+    "I’m a Full-stack developer with a passion for responsive design and problem solving. I enjoy being part of every stage of development from planning to building, debugging and deployment. Envisioning technology that can improve and streamline the lives and businesses of its users is what inspires me. I have a background in accounting, finance & marketing. Coming from an industry that is both individually driven and team-focused, I thrive both on my own, as well as in a group setting.",
   buttonLabel:
-    "Currently available for full-time work and freelance opportunities!",
+    "I'm currently looking for work on a dynamic team. Does this sound like you? Feel free to message me about job opportunities or coffee chats over zoom.",
   imgStart: false,
   alt: "gg",
   dark: false,

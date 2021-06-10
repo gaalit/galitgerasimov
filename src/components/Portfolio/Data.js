@@ -1,4 +1,4 @@
-import madeLocal from "../../assets/images/madelocal.png";
+import madeLocal from "../../assets/images/madelocal.gif";
 import jungle from "../../assets/images/jungle.gif";
 import scheduler from "../../assets/images/scheduler.gif";
 import tweeter from "../../assets/images/tweeter.gif";
@@ -45,7 +45,7 @@ export const projectFiveObj = {
   imgFive: tweeter,
   altFive: "screenshot of Tweeter app landing page",
   descriptionFive:
-    "Tweeter is a simple, single-page Twitter clone. It is a student development project to touch on new technologies that are foreign to me. These technologies include, but not limited to, AJAX, CSS, SCSS, jQuery, HTML5 and CSS3.",
+    "A simple, single-page Twitter clone created with AJAX, CSS, SCSS, jQuery, HTML5 and CSS3.",
   hrefFive: "https://github.com/gaalit/tweeter",
 };
 
@@ -54,6 +54,6 @@ export const projectSixObj = {
   imgSix: tinyApp,
   altSix: "screenshot of TinyApp app landing page",
   descriptionSix:
-    "TinyApp is a full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly)",
+    "A full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly)",
   hrefSix: "https://github.com/gaalit/tinyapp",
 };
