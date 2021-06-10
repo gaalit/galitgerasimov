@@ -1,5 +1,4 @@
 import React from "react";
-import DevIcon from "devicon-react-svg";
 import Icon from "./icons";
 import "./skills.css";
 

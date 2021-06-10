@@ -40,8 +40,6 @@ const getIcon = (name, color = "#f4a261") => {
       return <NodeJsIcon color={color} />;
     case "jquery":
       return <JQueryIcon color={color} />;
-    case "react":
-      return <ReactIcon color={color} />;
     case "redux":
       return <ReduxIcon color={color} />;
     case "rails":
