@@ -12,7 +12,7 @@ export const SkillsContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    padding-top: 10%;
+    padding-top: 30%;
   }
 `;
 
