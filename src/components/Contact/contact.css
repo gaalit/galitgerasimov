@@ -20,6 +20,7 @@
   color: #000;
   background: #f9f9f9;
   padding-bottom: 25px;
+  padding-top: 2.5%;
 }
 
 .wrapper-contact {
@@ -153,6 +154,10 @@ form button:hover {
   form input[type="email"] {
     width: 390px;
   }
+
+  .contact-container {
+    padding-top: 12.5%;
+  }
 }
 
 @media only screen and (max-width: 490px) {
@@ -176,11 +181,30 @@ form button:hover {
   }
 
   form textarea {
-    width: 250px;
+    width: 225px;
   }
 
   form input[type="text"],
   form input[type="email"] {
-    width: 250px;
+    width: 225px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .contact-container {
+    padding-top: 20%;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .contact-container {
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .contact-container {
+    padding-top: 30%;
   }
 }
