@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./contact.css";
 
 const ContactPage = () => {
-  const [success, setSuccess] = useState(false);
+  // const [success, setSuccess] = useState(false);
 
-  useEffect(() => {
-    if (window.location.href.includes("success=true")) {
-      setSuccess(true);
-    }
-  }, success);
+  // useEffect(() => {
+  //   if (window.location.href.includes("success=true")) {
+  //     setSuccess(true);
+  //   }
+  // }, success);
 
   return (
     <div id="contact" className="contact-container">
@@ -16,9 +16,9 @@ const ContactPage = () => {
         <div className="highlight"></div>
         <h2>Contact</h2>
         <div className="contactInfoContainer">
-          {success && (
+          {/* {success && (
             <p style={{ color: "green" }}>Thanks for your message! </p>
-          )}
+          )} */}
 
           <div className="formContainer">
             <form
