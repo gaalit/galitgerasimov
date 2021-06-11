@@ -8,7 +8,7 @@ const ContactPage = () => {
     if (window.location.search.includes("success=true")) {
       setSuccess(true);
     }
-  }, success);
+  }, []);
 
   return (
     <div id="contact" className="contact-container">
@@ -22,7 +22,7 @@ const ContactPage = () => {
 
           <div className="formContainer">
             <form
-              action="/contact/?success=true"
+              action="/success=true"
               name="contact"
               method="POST"
               data-netlify="true"
