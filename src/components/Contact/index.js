@@ -5,7 +5,7 @@ const ContactPage = () => {
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    if (window.location.search.includes("/contact")) {
+    if (window.location.search.includes("success=true")) {
       setSuccess(true);
     }
   }, []);
@@ -16,33 +16,34 @@ const ContactPage = () => {
         <div className="highlight"></div>
         <h2>Contact</h2>
         <div className="contactInfoContainer">
-          {success ? (
+          {success && (
             <p style={{ color: "green" }}>Thanks for your message! </p>
-          ) : (
-            <div className="formContainer">
-              <form
-                action="/contact"
-                name="contact"
-                method="POST"
-                data-netlify="true"
-              >
-                <input type="hidden" name="form-name" value="contact" />
-                <label>
-                  <input type="text" name="name" placeholder="Name" />
-                </label>
-                <label>
-                  <input type="email" name="email" placeholder="Email" />
-                </label>
-                <label>
-                  <textarea
-                    name="message"
-                    placeholder="Write a message here"
-                  ></textarea>
-                </label>
-                <button type="submit">Send</button>
-              </form>
-            </div>
           )}
+
+          <div className="formContainer">
+            <form
+              action="/contact/?success=true"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <label>
+                <input type="text" name="name" placeholder="Name" />
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Email" />
+              </label>
+              <label>
+                <textarea
+                  name="message"
+                  placeholder="Write a message here"
+                ></textarea>
+              </label>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
           <div className="contactMeContainer">
             <p>
               You can contact me at{" "}
