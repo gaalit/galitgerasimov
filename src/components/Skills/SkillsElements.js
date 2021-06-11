@@ -14,6 +14,10 @@ export const SkillsContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding-top: 30%;
   }
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    padding-top: 50%;
+  }
 `;
 
 export const SkillsWrapper = styled.div`
