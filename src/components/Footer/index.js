@@ -1,5 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import {
   FooterContainter,
   FooterWrap,
@@ -36,11 +37,11 @@ const Footer = () => {
                   <FaLinkedin />
                 </SocialIconLink>
                 <SocialIconLink
-                  href="https://github.com/gaalit"
+                  href="mailto:galit.gerasimov3@gmail.com"
                   target="_blank"
-                  aria-label="GithubTwitter"
+                  aria-label="Email"
                 >
-                  <FaTwitter />
+                  <MdEmail />
                 </SocialIconLink>
               </SocialIcons>
             </SocialMediaWrap>
