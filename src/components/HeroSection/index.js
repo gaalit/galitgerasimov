@@ -18,7 +18,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>HI! I'M GALIT</HeroH1>
-        {/* <HeroP>& I'm a </HeroP> */}
+
         <Typical
           steps={[
             " Full-Stack Developer",
@@ -32,17 +32,6 @@ const HeroSection = () => {
           ]}
           wrapper="h2"
         />
-        {/* <HeroBtnWrapper>
-          <Button
-            to="contact"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary="true"
-            dark="true"
-          >
-            Contact {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
-        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   );
