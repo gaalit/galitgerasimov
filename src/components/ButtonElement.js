@@ -27,15 +27,20 @@ export const ButtonOne = styled.a`
 export const ButtonTwo = styled.a`
   display: flex;
   align-items: center;
-  background: hsla(0, 0%, 100%, 0.75);
   border-radius: 7px;
   color: #84a59d;
+
+  letter-spacing: 1.5px;
 
   transition: all 0.2s ease-in-out;
   text-decoration: none !important;
 
-  padding: 7px 22px;
-  box-shadow: inset 0 0 0 2px #333;
+  padding: 5px 18px;
+
+  &:hover {
+    background: #84a59d;
+    color: #fff;
+  }
 `;
 
 export const ButtonThree = styled.a`
