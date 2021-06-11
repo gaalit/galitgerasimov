@@ -8,7 +8,7 @@ const ContactPage = () => {
     if (window.location.search.includes("success=true")) {
       setSuccess(true);
     }
-  }, []);
+  }, success);
 
   return (
     <div id="contact" className="contact-container">
