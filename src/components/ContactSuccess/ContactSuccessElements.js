@@ -2,24 +2,42 @@ import styled from "styled-components";
 
 export const ContactSuccessContainer = styled.div`
   background: #f5cac3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
-
-  @media (min-width: 769px) and (max-width: 965px) {
-    padding: 90px 0 20px 0px;
-  }
+  height: 88vh;
 `;
 
 export const ContactSuccessWrapper = styled.div`
-  display: grid;
-  z-index: 1;
-  height: 580px;
-  width: 100%;
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 24px;
-  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  width: 300px;
+
+  height: 300px;
+
+  margin: 0 auto;
+
+  &after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+`;
+
+export const ContactSuccessContent = styled.div`
+  padding: 12px 12px;
+`;
+
+export const ContactSuccessMessage = styled.p`
+  margin-top: 10%;
+  maring-bottom: 20%;
+`;
+
+export const ContactSuccessBtn = styled.div`
+  margin-top: 10%;
+
+  display: flex;
+  align-items: center;
 `;
