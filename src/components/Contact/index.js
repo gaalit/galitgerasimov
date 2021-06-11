@@ -2,24 +2,12 @@ import React from "react";
 import "./contact.css";
 
 const ContactPage = () => {
-  // const [success, setSuccess] = useState(false);
-
-  // useEffect(() => {
-  //   if (window.location.href.includes("success=true")) {
-  //     setSuccess(true);
-  //   }
-  // }, success);
-
   return (
     <div id="contact" className="contact-container">
       <div className="wrapper-contact">
         <div className="highlight"></div>
         <h2>Contact</h2>
         <div className="contactInfoContainer">
-          {/* {success && (
-            <p style={{ color: "green" }}>Thanks for your message! </p>
-          )} */}
-
           <div className="formContainer">
             <form
               action="/success=true"
