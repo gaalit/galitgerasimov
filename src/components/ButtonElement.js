@@ -6,7 +6,7 @@ export const ButtonOne = styled.a`
   background: #f7ede2;
   white-space: nowrap;
   padding: 5px 22px;
-  color: ${({ dark }) => (dark ? "#010606" : "#84a59d")};
+  color: ${({ dark }) => (dark ? "#101522" : "#84a59d")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -55,5 +55,30 @@ export const ButtonThree = styled.a`
     transition: all 0.2s ease-in-out;
 
     color: #010606;
+  }
+`;
+
+export const ButtonFour = styled.a`
+  border-radius: 50px;
+
+  background: #84a59d;
+  white-space: nowrap;
+  padding: 5px 22px;
+  color: #f9f9f9;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    color: #000;
+    transition: all 0.2s ease-in-out;
+    background: ${({ primary }) => (primary ? "#f7ede2" : "#01BF71")};
   }
 `;
