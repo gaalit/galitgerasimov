@@ -5,7 +5,7 @@ const ContactPage = () => {
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    if (window.location.search.includes("success=true")) {
+    if (window.location.href.includes("success=true")) {
       setSuccess(true);
     }
   });
@@ -22,7 +22,7 @@ const ContactPage = () => {
 
           <div className="formContainer">
             <form
-              action="/success=true"
+              action="contact/success=true"
               name="contact"
               method="POST"
               data-netlify="true"
