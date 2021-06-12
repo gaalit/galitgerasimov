@@ -6,7 +6,7 @@ export const ContactSuccessContainer = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  height: 88vh;
+  height: 90vh;
 `;
 
 export const ContactSuccessWrapper = styled.div`
