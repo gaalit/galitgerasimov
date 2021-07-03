@@ -13,7 +13,7 @@ export const homeObjOne = {
   topLine: "Galit Gerasimov",
   headline: "About me",
   description:
-    "I’m a Full-stack developer with a passion for responsive design and problem solving. I enjoy being part of every stage of development from planning to building, debugging and deployment. Envisioning technology that can improve and streamline the lives and businesses of its users is what inspires me. I have a background in accounting, finance & marketing. Coming from an industry that is both individually driven and team-focused, I thrive both on my own, as well as in a group setting.",
+    "I’m a Full-stack developer with a passion for responsive design and problem solving. I enjoy being part of every stage of development from planning to building, debugging and deployment. Envisioning technology that can improve and streamline the lives and businesses of its users is what inspires me. I have a background in accounting, finance & marketing.",
   buttonLabel:
     "I'm currently looking for work on a dynamic team. Does this sound like you? Feel free to message me about job opportunities or coffee chats over zoom.",
   imgStart: false,
