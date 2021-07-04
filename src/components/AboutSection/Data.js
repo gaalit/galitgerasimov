@@ -10,12 +10,12 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Galit Gerasimov",
+  // topLine: "Galit Gerasimov",
   headline: "About me",
   description:
-    "I’m a Full-stack developer with a passion for responsive design and problem solving. I enjoy being part of every stage of development from planning to building, debugging and deployment. Envisioning technology that can improve and streamline the lives and businesses of its users is what inspires me. I have a background in accounting, finance & marketing.",
+    "I’m a Full-stack developer with a passion for responsive design and problem solving. I enjoy being part of every stage of development, from planning to building, debugging and deployment. Envisioning technologies that can improve and streamline businesses and the lives of its users is what inspires me. I also have a background in accounting, finance & marketing.",
   buttonLabel:
-    "I'm currently looking for work on a dynamic team. Does this sound like you? Feel free to message me about job opportunities or coffee chats over zoom.",
+    "I build responsive user interfaces, interactive web applications, and minimalist site designs. Feel free to message me about free-lance opportunities or coffee chats over zoom ☕",
   imgStart: false,
   alt: "gg",
   dark: false,
