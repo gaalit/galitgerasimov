@@ -4,7 +4,8 @@ import { Link as LinkS } from "react-scroll";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const Nav = styled.nav`
-background: ${({ scrollNav }) => (scrollNav ? "#84a59d" : "transparent")};
+background: ${({ scrollNav }) =>
+  scrollNav ? "rgb(132, 165, 157);" : "transparent"};
 height: 60px;
 margin-top: -80px;
 display: flex;
