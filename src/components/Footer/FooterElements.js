@@ -33,11 +33,10 @@ export const SocialLogo = styled(Link)`
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  font-weight: bold;
 
   @media screen and (max-width: 1024px) {
     padding-left: 20px;
