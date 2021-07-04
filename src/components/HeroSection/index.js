@@ -1,5 +1,6 @@
 import React from "react";
-import Video from "../video/video.mp4";
+import "../Contact/contact.css";
+import building from "../../assets/images/building.jpeg";
 
 import Typical from "react-typical";
 import {
@@ -14,23 +15,24 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay muted loop src={Video} type="video/mp4"></VideoBg>
+        <VideoBg src={building}></VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>HI! I'M GALIT</HeroH1>
+        <HeroH1>I'M GALIT</HeroH1>
 
         <Typical
           steps={[
-            " Full-Stack Developer",
+            " Full-Stack Developer.",
             2000,
-            " Creator",
+            " Creator.",
             2000,
-            " Former Marketing Specialist",
+            " Designer.",
             2000,
-            " Full-Stack Developer",
+            " Full-Stack Developer.",
             500,
           ]}
-          wrapper="h2"
+          wrapper="h1"
+          className={"intro"}
         />
       </HeroContent>
     </HeroContainer>
