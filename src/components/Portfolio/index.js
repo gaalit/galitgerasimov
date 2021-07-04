@@ -64,6 +64,21 @@ function Carousel({
           initialIndex={0}
           accessibility={false}
         >
+          <div className="projectFour carousel-cell">
+            <img className="screenshot" src={imgFour} alt={altFour} />
+            <p className="desc">{descriptionThree}</p>
+            <div className="skillsContainer">
+              <div className="btnContainer">
+                <ButtonTwo
+                  onMouseEnter={onHover}
+                  onMouseLeave={onHover}
+                  href={hrefFour}
+                >
+                  {titleFour} Repo {hover ? <ArrowForward /> : <ArrowRight />}
+                </ButtonTwo>
+              </div>
+            </div>
+          </div>
           <div className="projectOne carousel-cell">
             <img className="screenshot" src={imgOne} alt={altOne} />
             <p className="desc">{descriptionOne}</p>
@@ -75,21 +90,6 @@ function Carousel({
                   href={hrefOne}
                 >
                   {titleOne} Repo {hover ? <ArrowForward /> : <ArrowRight />}
-                </ButtonTwo>
-              </div>
-            </div>
-          </div>
-          <div className="projectTwo carousel-cell">
-            <img className="screenshot" src={imgTwo} alt={altTwo} />
-            <p className="desc">{descriptionTwo}</p>
-            <div className="skillsContainer">
-              <div className="btnContainer">
-                <ButtonTwo
-                  onMouseEnter={onHover}
-                  onMouseLeave={onHover}
-                  href={hrefTwo}
-                >
-                  {titleTwo} Repo {hover ? <ArrowForward /> : <ArrowRight />}
                 </ButtonTwo>
               </div>
             </div>
@@ -109,17 +109,17 @@ function Carousel({
               </div>
             </div>
           </div>
-          <div className="projectFour carousel-cell">
-            <img className="screenshot" src={imgFour} alt={altFour} />
-            <p className="desc">{descriptionFour}</p>
+          <div className="projectTwo carousel-cell">
+            <img className="screenshot" src={imgTwo} alt={altTwo} />
+            <p className="desc">{descriptionTwo}</p>
             <div className="skillsContainer">
               <div className="btnContainer">
                 <ButtonTwo
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
-                  href={hrefFour}
+                  href={hrefTwo}
                 >
-                  {titleFour} Repo {hover ? <ArrowForward /> : <ArrowRight />}
+                  {titleTwo} Repo {hover ? <ArrowForward /> : <ArrowRight />}
                 </ButtonTwo>
               </div>
             </div>
