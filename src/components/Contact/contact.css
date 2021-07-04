@@ -1,3 +1,8 @@
+.intro {
+  color: #f9f9f9;
+  font-weight: 500;
+}
+
 .contact-container .highlight {
   background: rgba(202, 174, 162, 0.6);
   width: 100px;
@@ -182,6 +187,10 @@ form button:hover {
   form input[type="email"] {
     width: 300px;
   }
+
+  .intro {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 381px) {
@@ -209,6 +218,9 @@ form button:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .contact-container {
     padding-top: 20%;
+  }
+  .intro {
+    font-size: 38px;
   }
 }
 
