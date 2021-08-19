@@ -22,11 +22,13 @@ const HeroSection = () => {
 
         <Typical
           steps={[
-            " Full-Stack Developer.",
+            "Full-Stack Developer.",
             2000,
-            " Creator.",
+            "Specialized in React",
             2000,
-            " Designer.",
+            "JavaScript",
+            2000,
+            "TypeScript",
             2000,
             " Full-Stack Developer.",
             500,
