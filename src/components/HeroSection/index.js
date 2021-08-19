@@ -30,8 +30,6 @@ const HeroSection = () => {
             2000,
             "TypeScript",
             2000,
-            " Full-Stack Developer.",
-            500,
           ]}
           wrapper="h1"
           className={"intro"}
