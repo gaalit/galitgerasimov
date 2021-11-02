@@ -66,7 +66,7 @@ function Carousel({
         >
           <div className="projectFour carousel-cell">
             <img className="screenshot" src={imgFour} alt={altFour} />
-            <p className="desc">{descriptionThree}</p>
+            <p className="desc">{descriptionFour}</p>
             <div className="skillsContainer">
               <div className="btnContainer">
                 <ButtonTwo
