@@ -18,7 +18,7 @@ const Footer = () => {
         <FooterWrap>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to="/">Galit Gerasimov - Copyright © 2021</SocialLogo>
+              <SocialLogo to="/">Galit Gerasimov - Copyright © 2020</SocialLogo>
               <SocialIcons>
                 <SocialIconLink
                   href="https://github.com/gaalit"
